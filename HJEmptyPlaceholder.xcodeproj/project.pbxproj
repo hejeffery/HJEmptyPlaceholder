@@ -47,8 +47,8 @@
 			isa = PBXGroup;
 			children = (
 				473693FC20C2668E0003A5BA /* HJEmptyPlaceholder.h */,
-				473693FD20C2668E0003A5BA /* UIScrollView+HJEmptyPlaceholder.h */,
 				473693FE20C2668E0003A5BA /* HJEmptyPlaceholder.m */,
+				473693FD20C2668E0003A5BA /* UIScrollView+HJEmptyPlaceholder.h */,
 				473693FF20C2668E0003A5BA /* UIScrollView+HJEmptyPlaceholder.m */,
 			);
 			path = Source;
