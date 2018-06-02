@@ -7,16 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4736940020C2668E0003A5BA /* HJEmptyPlaceholder.m in Sources */ = {isa = PBXBuildFile; fileRef = 473693FE20C2668E0003A5BA /* HJEmptyPlaceholder.m */; };
+		4736940120C2668E0003A5BA /* UIScrollView+HJEmptyPlaceholder.m in Sources */ = {isa = PBXBuildFile; fileRef = 473693FF20C2668E0003A5BA /* UIScrollView+HJEmptyPlaceholder.m */; };
 		C1E0276520B263EE009C25C0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C1E0276420B263EE009C25C0 /* AppDelegate.m */; };
 		C1E0276720B263EE009C25C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1E0276620B263EE009C25C0 /* Assets.xcassets */; };
 		C1E0276A20B263EE009C25C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1E0276820B263EE009C25C0 /* LaunchScreen.storyboard */; };
 		C1E0276D20B263EE009C25C0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C1E0276C20B263EE009C25C0 /* main.m */; };
 		C1E0277520B2640F009C25C0 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C1E0277420B2640F009C25C0 /* TestViewController.m */; };
-		C1E0277A20B26480009C25C0 /* UIScrollView+HJEmptyPlaceholder.m in Sources */ = {isa = PBXBuildFile; fileRef = C1E0277620B2647F009C25C0 /* UIScrollView+HJEmptyPlaceholder.m */; };
-		C1E0277B20B26480009C25C0 /* HJEmptyPlaceholder.m in Sources */ = {isa = PBXBuildFile; fileRef = C1E0277920B26480009C25C0 /* HJEmptyPlaceholder.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		473693FC20C2668E0003A5BA /* HJEmptyPlaceholder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJEmptyPlaceholder.h; sourceTree = "<group>"; };
+		473693FD20C2668E0003A5BA /* UIScrollView+HJEmptyPlaceholder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+HJEmptyPlaceholder.h"; sourceTree = "<group>"; };
+		473693FE20C2668E0003A5BA /* HJEmptyPlaceholder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJEmptyPlaceholder.m; sourceTree = "<group>"; };
+		473693FF20C2668E0003A5BA /* UIScrollView+HJEmptyPlaceholder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+HJEmptyPlaceholder.m"; sourceTree = "<group>"; };
 		C1E0276020B263EE009C25C0 /* HJEmptyPlaceholder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HJEmptyPlaceholder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1E0276320B263EE009C25C0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C1E0276420B263EE009C25C0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -26,10 +30,6 @@
 		C1E0276C20B263EE009C25C0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C1E0277320B2640F009C25C0 /* TestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
 		C1E0277420B2640F009C25C0 /* TestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
-		C1E0277620B2647F009C25C0 /* UIScrollView+HJEmptyPlaceholder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+HJEmptyPlaceholder.m"; sourceTree = "<group>"; };
-		C1E0277720B26480009C25C0 /* HJEmptyPlaceholder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJEmptyPlaceholder.h; sourceTree = "<group>"; };
-		C1E0277820B26480009C25C0 /* UIScrollView+HJEmptyPlaceholder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+HJEmptyPlaceholder.h"; sourceTree = "<group>"; };
-		C1E0277920B26480009C25C0 /* HJEmptyPlaceholder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJEmptyPlaceholder.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +43,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		473693FB20C2668E0003A5BA /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				473693FC20C2668E0003A5BA /* HJEmptyPlaceholder.h */,
+				473693FD20C2668E0003A5BA /* UIScrollView+HJEmptyPlaceholder.h */,
+				473693FE20C2668E0003A5BA /* HJEmptyPlaceholder.m */,
+				473693FF20C2668E0003A5BA /* UIScrollView+HJEmptyPlaceholder.m */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
 		C1E0275720B263EE009C25C0 = {
 			isa = PBXGroup;
 			children = (
@@ -62,10 +73,7 @@
 		C1E0276220B263EE009C25C0 /* HJEmptyPlaceholder */ = {
 			isa = PBXGroup;
 			children = (
-				C1E0277720B26480009C25C0 /* HJEmptyPlaceholder.h */,
-				C1E0277920B26480009C25C0 /* HJEmptyPlaceholder.m */,
-				C1E0277820B26480009C25C0 /* UIScrollView+HJEmptyPlaceholder.h */,
-				C1E0277620B2647F009C25C0 /* UIScrollView+HJEmptyPlaceholder.m */,
+				473693FB20C2668E0003A5BA /* Source */,
 				C1E0276320B263EE009C25C0 /* AppDelegate.h */,
 				C1E0276420B263EE009C25C0 /* AppDelegate.m */,
 				C1E0276620B263EE009C25C0 /* Assets.xcassets */,
@@ -149,10 +157,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				C1E0277520B2640F009C25C0 /* TestViewController.m in Sources */,
-				C1E0277A20B26480009C25C0 /* UIScrollView+HJEmptyPlaceholder.m in Sources */,
 				C1E0276D20B263EE009C25C0 /* main.m in Sources */,
 				C1E0276520B263EE009C25C0 /* AppDelegate.m in Sources */,
-				C1E0277B20B26480009C25C0 /* HJEmptyPlaceholder.m in Sources */,
+				4736940120C2668E0003A5BA /* UIScrollView+HJEmptyPlaceholder.m in Sources */,
+				4736940020C2668E0003A5BA /* HJEmptyPlaceholder.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
